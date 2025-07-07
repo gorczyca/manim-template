@@ -1,14 +1,15 @@
 from manim import *
 from manim_slides import Slide
 
-from shared import BaseSlide
+from slides.shared.base_slide import BaseSlide
+from slides.shared.wrappers import MathTexWrapper
 
 
 
 class Slide2(BaseSlide):
     TITLE = "Slide2"
     def create_content(self):
-        eq = MathTex(r"E=mc^2", color=self.FONT_COLOR)
+        eq = MathTexWrapper(r"E=mc^2, \test \text{-- real numbers}")
         self.slide.add(eq)
         
         

@@ -3,3 +3,6 @@ slides/files
 slides/*.json
 venv/
 __pycache__/
+*.html
+*.pdf
+*_assets
