@@ -16,9 +16,9 @@ class SlideDeck(Slide):
             
         ]
         
-        slides_total = len(main_slides)
+        slide_total = len(main_slides)
         for i, sld in enumerate(main_slides, start=1):
-            inst = sld(self)
+            inst = sld(self, show_footer=True, slide_no=i, slide_total=slide_total)
             inst.pause()
             
             
