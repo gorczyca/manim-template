@@ -36,5 +36,5 @@ make slide_x
 which should display the standalone slide. Make sure to follow the naming convention, script name in snake case, i.e. `my_first_slide.py`, then the main class name inside `MyFirstSlide` and for running standalone `MyFirstSlideScene` inside of the same script. For reference check [`slides/slide1.py`](slides/slide1.py).
 
 ### Showing whole slide deck
-Run `make` in the main directory. Make sure to add your slide class in the [`slide_deck.py`](slide_deck,py) main_slides array.
+Run `make` in the main directory. Make sure to add your slide class in the [`slide_deck.py`](slide_deck,py) `main_slides` array.
 
