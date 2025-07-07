@@ -10,7 +10,7 @@ uv pip install PySide6
 ### Workflow
 For each new slide `slide_x`, create a new script in the `slides/` directory. Make sure it has the following structure and naming convention:
 
-```
+```python
 from manim import *
 from manim_slides import Slide
 
